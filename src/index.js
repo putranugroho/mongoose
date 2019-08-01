@@ -18,7 +18,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/jc-mongoose', {
 })
 
 const app = express()
-const port = 2019
+const port = process.env.PORT || 2019
 
 app.use(cors())
 app.use(express.json())
