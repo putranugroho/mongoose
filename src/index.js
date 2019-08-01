@@ -8,7 +8,7 @@ const cors = require('cors')
 const User = require('./model/user')
 const Task = require('./model/task')
 
-mongoose.connect('mongodb://127.0.0.1:27017/jc-mongoose', {
+mongoose.connect('mongodb+srv://putranugroho:86604550@clusterrumah-tmpjb.mongodb.net/mysqlputra?retryWrites=true&w=majority', {
     // Parser string URL
     useNewUrlParser: true,
 
